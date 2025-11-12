@@ -1,2 +1,4 @@
 /data.parquet
 /data_preprocessed.parquet
+/data_01.parquet
+/data_combined.parquet
