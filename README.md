@@ -17,6 +17,8 @@ DVC plays the role of tracking every variation of data we can possible create. I
 ## MLFLOW
 With the help of Mlflow we can tracking every experiment we can possibly make. It provides a UI where we can label and visualize and metrics, model and most efficient parameters.
 
+<img width="612" height="513" alt="image" src="https://github.com/user-attachments/assets/350aacdd-2a47-40bf-be54-41191f78aed7" />
+
 # NLP modeling
 
 # Citation
