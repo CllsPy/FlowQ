@@ -12,6 +12,8 @@ The process of developing an ML system looks more like a cycle with a lot of bac
 ## DVC
 DVC plays the role of tracking every variation of data we can possible create. In your case, this data are data_00, data_01. We cambine both on combined_data, finally you need a preprocessed version of our Yahoo-Question data.
 
+<img width="320" height="288" alt="image" src="https://github.com/user-attachments/assets/77c4975f-d595-425a-a263-d114a20b4a62" />
+
 ## MLFLOW
 With the help of Mlflow we can tracking every experiment we can possibly make. It provides a UI where we can label and visualize and metrics, model and most efficient parameters.
 
