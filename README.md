@@ -5,6 +5,7 @@ This repo contains the code for my MLOPs experiments using DVC to track data and
 When building machine learning models, at scale, isn't enough to build jupyter notebook and export the model. You need tracking every parameter, keep improving the model performance, to prevent the lost of performance. MLOPs set the rules, so we can make this process efficient, for exemplo, run the pipeline (process data, train, evaluate) all your code. Each one of those, play a different and importat role on your project.
 
 <img width="705" height="311" alt="image" src="https://github.com/user-attachments/assets/9f5a8893-73c7-41b7-ba79-d435b0819cb8" />
+
 The process of developing an ML system looks more like a cycle with a lot of back and forth between steps (src: ML systems - Chip Huyen)
 
 
