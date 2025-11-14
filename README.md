@@ -27,12 +27,11 @@ I start exploring all data, checking for stranger charcteres, emojis, null value
 ### Modeling
 I start with MutinominalNB, which is great for text classifical, but before deep dive into modeling. A went trought each step on NLP projects. For exemplo, after plotting every class a really we don't have any problem with class imbalanced.
 
-<img width="556" height="435" alt="image" src="https://github.com/user-attachments/assets/4b0696e9-b52d-4203-83b8-985d98513a3a" />
-
-
 - data cleaning
 - tokenização
 - lemmatization or stemming
+
+<img width="556" height="435" alt="image" src="https://github.com/user-attachments/assets/4b0696e9-b52d-4203-83b8-985d98513a3a" />
 
 All those steps help us improve data quality, so it implies better result. At the end we got a classification report like this:
 
