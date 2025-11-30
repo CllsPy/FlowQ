@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from src.train import ProcessData  
+from src.preprocess import ProcessData  
 
 
 def test_load_data():
