@@ -1,7 +1,14 @@
+# tracking/versioning
 mlflow
 dvc
+
+# machine learning
 pandas
 numpy
 scikit-learn
+
+# nlp
 nltk
+
+# test
 pytest
