@@ -3,6 +3,8 @@ import nltk
 
 nltk.download('stopwords')
 nltk.download('punkt_tab')
+nltk.download('wordnet')
+
 import pandas as pd
 
 from nltk.corpus import stopwords
