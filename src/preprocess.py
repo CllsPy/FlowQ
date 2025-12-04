@@ -6,6 +6,8 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
+nltk.download('stopwords')
+
 # --- I/O ---
 def load_data(path):
     df = pd.read_parquet(path)
