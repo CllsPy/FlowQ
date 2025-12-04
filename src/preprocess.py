@@ -1,12 +1,15 @@
 import re
 import nltk
+
+nltk.download('stopwords')
+nltk.download('punkt_tab')
 import pandas as pd
 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-nltk.download('stopwords')
+
 
 # --- I/O ---
 def load_data(path):
