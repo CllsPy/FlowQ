@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from src.preprocess import ProcessData  
+from src.preprocess import load_data  
 
 @pytest.fixture
 def create_sample_data():
@@ -14,9 +14,7 @@ def create_sample_data():
     df.to_parquet(path)
     return path
 
-def test_load(create_sample_data):
-    process_data = ProcessData(create_sample_data)
-    data = process_data.load_data()
-
-    assert isinstance(data, pd.DataFrame)
-    assert not data.empty
+def test_load_data(create_sample_data):
+    df = load_data(create_sample_data)
+    assert isinstance(df, pd.DataFrame)
+    assert not df.empty
