@@ -54,6 +54,6 @@ def transform_and_save_data(path, save_path):
     return df
 
 
-if __name__ == "__main__":
-    df = transform_and_save_data(path="data/data_combined.parquet", save_path="data/data_preprocessed.parquet")
-    print(df)
+# if __name__ == "__main__":
+#     df = transform_and_save_data(path="data/data_combined.parquet", save_path="data/data_preprocessed.parquet")
+#     print(df)

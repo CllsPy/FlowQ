@@ -1,3 +1,6 @@
 import pandas as pd
 
-data 
+
+def load_data(path):
+    df = pd.read_parquet(path)
+    return df
