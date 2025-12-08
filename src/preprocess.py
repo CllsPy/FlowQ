@@ -2,6 +2,7 @@ import re
 
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 
 import pandas as pd
