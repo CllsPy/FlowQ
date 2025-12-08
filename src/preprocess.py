@@ -1,5 +1,8 @@
 import re
+
 import nltk
+nltk.download('stopwords')
+
 
 import pandas as pd
 
